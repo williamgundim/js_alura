@@ -5,7 +5,7 @@ btAdd.addEventListener("click", function(event){
     //responsavel por definir o evento default, o default do html é mandar o form e recarregar a pagina.
     event.preventDefault();
 
-    var form = document.querySelector("#form-adiciona");
+    var form = document.querySelector("#form-adiciona"); 
     var tbody = document.querySelector("#tabela-pacientes")
 
     console.log(form);
