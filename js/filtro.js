@@ -21,13 +21,11 @@ function funcFiltro(){
        
 
         if (!expressao.test(nome)){
-            console.log("1" + cCpoFiltro);
-            paciente.classList.add("paciente-invalido");
+            paciente.classList.add("invisivel");
         }
         else
         {
-            console.log("2" + cCpoFiltro);    
-            paciente.classList.remove("paciente-invalido");
+            paciente.classList.remove("invisivel");
         }
 
     }

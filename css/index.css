@@ -142,6 +142,6 @@ button[disabled=disabled], button:disabled {
 	margin-bottom: 10px;
 }
 
-#teste{
-	color: red;
+.invisivel{
+	display: none;
 }
